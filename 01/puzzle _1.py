@@ -18,4 +18,6 @@ print(sum(cal_nums_list))
         #cal_num = str[0] + str[len(str)-1]
     #cal_nums_list.append(int(cal_num))
 
+input.close()
+
 

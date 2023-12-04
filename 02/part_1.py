@@ -2,7 +2,7 @@ import re
 
 #12 red, 13 green, 14 blue
 
-with open('part_1_input.txt', 'r') as file:
+with open('input.txt', 'r') as file:
     lines = file.readlines()
 
 plausible_games = []

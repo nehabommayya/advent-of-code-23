@@ -69,7 +69,7 @@ def extract_full_num(lines, line_id, pos):
     return int(num_str), start_pos
 
 
-with open("part_1_input.txt", "r") as file:
+with open("input.txt", "r") as file:
     text = file.readlines()
 
 print(find_gear_ratios(find_asterisks(text), text))

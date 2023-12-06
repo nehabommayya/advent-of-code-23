@@ -19,8 +19,7 @@ def get_elf_nums(data):
 
 
 def compare_nums(winning_nums, elf_nums):
-    points=[]
-
+    points = []
     for i in range(0, len(winning_nums)):
         matches = []
         for item in elf_nums[i]:

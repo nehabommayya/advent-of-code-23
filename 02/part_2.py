@@ -9,7 +9,7 @@ for line in lines:
     game_id = int(line.split()[1][:-1])
 
     red_nums = re.findall(r'(\d+)\s*red', line)
-    max_remkpmnk = int(red_nums[0])
+    max_red = int(red_nums[0])
     for num in red_nums:
         if int(num) > max_red:
             max_red = int(num)

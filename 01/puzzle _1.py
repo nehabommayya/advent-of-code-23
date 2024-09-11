@@ -7,7 +7,7 @@ for line in lines:
     chars = list(line)
     str = ''
     for char in chars:
-        if char.isnumeric():
+        if char.isnumeric():fsdsf
             str += char
     cal_num = str[0] + str[(len(str) -1)]
     cal_nums_list.append(int(cal_num))
